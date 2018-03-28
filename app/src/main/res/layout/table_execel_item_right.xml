@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/lin_year_title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="50dp"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="姓名" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="50dp"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/tv_age"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="年龄" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="50dp"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/tv_tiwen"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="体温" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="50dp"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/tv_maibo"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="脉搏" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="50dp"
+            android:background="#cccccc" />
+
+        <TextView
+            android:id="@+id/tv_huxi"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="呼吸" />
+
+        <View
+            android:layout_width="1px"
+            android:layout_height="50dp"
+            android:background="#cccccc" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="#cccccc" />
+</LinearLayout>
